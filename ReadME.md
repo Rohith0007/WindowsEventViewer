@@ -1,8 +1,9 @@
-# pip install pywinrm
+## Commands
+    pip install pywinrm
 
-# winrm set winrm/config/service/auth '@{Basic="true"}'
+    winrm set winrm/config/service/auth '@{Basic="true"}'
 
-# winrm set winrm/config/service '@{AllowUnencrypted="true"}'
+    winrm set winrm/config/service '@{AllowUnencrypted="true"}'
 
 ## Env SetUP
     python3 -m venv venv
